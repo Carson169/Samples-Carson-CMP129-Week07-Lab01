@@ -1,6 +1,6 @@
 //Carson Samples
 //Lab Assignment 11A
-//10.16.26
+//10.13.26
 //Course CMP-129-80231
 public class LibraryTest 
 {
@@ -32,7 +32,7 @@ public class LibraryTest
         System.out.println("Test [Borrow Invalid ISBN] Result: " + (test5 == false ? "PASS" : "FAIL") + "\n");
         boolean test6 = Libarby.borrowBook("999", "987654321");
         System.out.println("Test [Borrow Invalid Member ID] Result: " + (test6 == false ? "PASS" : "FAIL") + "\n");
-        System.out.println("\nFinal Books and Members:");
+        System.out.println("Final Books and Members:");
         Libarby.displayBooks();
         Libarby.displayMembers();
     }

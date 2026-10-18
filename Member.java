@@ -1,6 +1,6 @@
 //Carson Samples
 //Lab Assignment 11A
-//10.16.26
+//10.13.26
 //Course CMP-129-80231
 import java.util.ArrayList;
 public class Member 
